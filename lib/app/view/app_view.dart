@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:tracker_app/modules/home/tracker_view/tracker_home_screen.dart';
+import 'package:tracker_app/modules/onboarding/view/onboarding_screen.dart';
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
@@ -35,7 +36,7 @@ class _MyAppState extends State<MyApp> {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const TrackerHomeScreen(),
+      home: const OnboardingScreen(),
     );
   }
 }
